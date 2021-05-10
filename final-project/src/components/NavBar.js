@@ -7,9 +7,11 @@ export default class NavBar extends Component {
             <div>
   <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-between">
     <Nav className="mr-auto">
+
       <Nav.Link href="#features">Features</Nav.Link>
       <Nav.Link href="#pricing">Pricing</Nav.Link>
       
